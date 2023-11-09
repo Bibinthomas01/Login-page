@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+        <title>
+HTML FORMS
+        </title>
+    </head>
+    <body>
+        <form>
+<DIV class="all format">
+  <div class="title_format">STUDENT REGISTERATION FORM</div>  
+</DIV>
+<div class="contain_edit">
+    <div class="field_margin">
+        <label for="fname">First name</label>
+    </div>
+    <input 
+    type="text"
+    class="structure_style"
+    name="fname"
+    placeholder="First name" required
+    />
+    <div class="contain_edit">
+        <div class="field_margin">
+            <label for="Mname">Middile name</label>
+        </div>
+        <input 
+        type="text"
+        class="structure_style"
+        name="Mname"
+        placeholder="Middile name" required
+        />
+        <div class="contain_edit">
+            <div class="field_margin">
+                <label for="Lname">Last name</label>
+            </div>
+            <input 
+            type="text"
+            class="structure_style"
+            name="Lname"
+            placeholder="Last name" required
+            />
+            <div>
+                <div class="contain_edit">
+<label for="course">Course:</label>
+<select name="course" id="course">
+    <option value="mba">MBA</option>
+    <option value="mcom">M.com</option>
+    <option value="mca">MCA</option>
+</select>
+                </div>
+                <div class="contain_edit">
+                    <div class="field_margin">
+                        <label for="gender">Gender:</label>
+                    </div>
+            <input type="radio" name="gender"id="male" 
+            value="male" checked>
+            <label for="male">male</label>
+            <input type="radio" name="gender"id="female" 
+            value="female" checked>
+            <label for="female">female</label>
+            <input type="radio" name="gender"id="other" 
+            value="other" checked>
+            <label for="other">other</label>
+        </div>
+        <div class="contain_edit">
+            <div class="field_margin">
+                <label for="phone">phone:</label>
+                </div>
+                <input type="number"
+                 class="structure_style"
+                  placeholder="+91"/>
+            <div class="phone_structure">
+                <label for="phone"></label>
+            </div>
+            <input type="number"
+            class="structure_style"
+            placeholder="phone no."
+            />
+            </div>
+            <div class="contain_edit">
+<div class="field_margin">
+    <label for="current adress">current address:</label>
+</div>
+<textarea
+placeholder="current address" row="4" cols="25"
+class="structure_style"
+role="textbox">
+</textarea>
+  </div>
+  <div class="contain_edit">
+    <div class="field_margin">
+        <label for="email">email:</label>
+    </div>
+    <input 
+    type="email"
+    class="structure_style"
+    name="email"
+    placeholder="enter email" required
+    />
+  </div>
+  <div class="contain_edit">
+    <div class="field_margin">
+        <label for="password">password:</label>
+    </div>
+    <input 
+    type="password"
+    class="structure_style"
+    name="password"
+    placeholder="enter password" required
+    />
+  </div>
+  <div class="contain_edit">
+    <div class="field_margin">
+        <label for="password">retype password:</label>
+    </div>
+    <input 
+    type="password"
+    class="structure_style"
+    name="reytype password"
+    placeholder="retype password" required
+    />
+  </div>
+  <div>
+  <input type="submit" id="reg" value="Register"/>
+  </div>
+</form>
+</div>
+    </body>
+</html>

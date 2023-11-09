@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0164)http://127.0.0.1:5500/html.html?fname=Bibin&Mname=h&Lname=thomas&course=mba&gender=other&email=bibinthomas123123%40gmail.com&password=EQWEASG&reytype+password=EWRGH -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>
+HTML FORMS
+        </title>
+    </head>
+    <body>
+        <form>
+<div class="all format">
+  <div class="title_format">STUDENT REGISTERATION FORM</div>  
+</div>
+<div class="contain_edit">
+    <div class="field_margin">
+        <label for="fname">First name</label>
+    </div>
+    <input type="text" class="structure_style" name="fname" placeholder="First name" required="">
+    <div class="contain_edit">
+        <div class="field_margin">
+            <label for="Mname">Middile name</label>
+        </div>
+        <input type="text" class="structure_style" name="Mname" placeholder="Middile name" required="">
+        <div class="contain_edit">
+            <div class="field_margin">
+                <label for="Lname">Last name</label>
+            </div>
+            <input type="text" class="structure_style" name="Lname" placeholder="Last name" required="">
+            <div>
+                <div class="contain_edit">
+<label for="course">Course:</label>
+<select name="course" id="course">
+    <option value="mba">MBA</option>
+    <option value="mcom">M.com</option>
+    <option value="mca">MCA</option>
+</select>
+                </div>
+                <div class="contain_edit">
+                    <div class="field_margin">
+                        <label for="gender">Gender:</label>
+                    </div>
+            <input type="radio" name="gender" id="male" value="male" checked="">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" value="female" checked="">
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="other" value="other" checked="">
+            <label for="other">other</label>
+        </div>
+        <div class="contain_edit">
+            <div class="field_margin">
+                <label for="phone">phone:</label>
+                </div>
+                <input type="number" class="structure_style" placeholder="+91">
+            <div class="phone_structure">
+                <label for="phone"></label>
+            </div>
+            <input type="number" class="structure_style" placeholder="phone no.">
+            </div>
+            <div class="contain_edit">
+<div class="field_margin">
+    <label for="current adress">current address:</label>
+</div>
+<textarea placeholder="current address" row="4" cols="25" class="structure_style" role="textbox"></textarea>
+  </div>
+  <div class="contain_edit">
+    <div class="field_margin">
+        <label for="email">email:</label>
+    </div>
+    <input type="email" class="structure_style" name="email" placeholder="enter email" required="">
+  </div>
+  <div class="contain_edit">
+    <div class="field_margin">
+        <label for="password">password:</label>
+    </div>
+    <input type="password" class="structure_style" name="password" placeholder="enter password" required="">
+  </div>
+  <div class="contain_edit">
+    <div class="field_margin">
+        <label for="password">retype password:</label>
+    </div>
+    <input type="password" class="structure_style" name="reytype password" placeholder="retype password" required="">
+  </div>
+  <input type="submit" id="reg" value="Register">
+            </div>
+
+</div>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></div></form></body></html>
